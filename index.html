@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Transportation Survey</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Transportation Survey</h2>
+    <form id="fortune-quiz">
+      <div class="form-group">
+        <p>Has any of the following unlucky things happened to you in the past week?</p>
+        <input type="checkbox" name="unlucky" value="-4"> Black cat crossed your path.<br>
+        <input type="checkbox" name="unlucky" value="-6">Broke a mirror<br>
+        <input type="checkbox" name="unlucky" value="-1">Stepped on a crack<br>
+        <input type="checkbox" name="unlucky" value="-3">Celebrated Friday the 13th<br>
+        <input type="checkbox" name="unlucky" value="-2">Walked under a ladder.<br>
+        <input type="checkbox" name="unlucky" value="-5">Bird flew in your window.<br>
+      </div>
+      <div class="form-group">
+        <p>Has any of the following lucky things happened to you in the past week?</p>
+        <input type="checkbox" name="lucky" value="2"> Saw a double rainbow.<br>
+        <input type="checkbox" name="lucky" value="5">Found a four leaf clover.<br>
+        <input type="checkbox" name="lucky" value="4">Found $20.<br>
+        <input type="checkbox" name="lucky" value="6">Won big at the casino!<br>
+        <input type="checkbox" name="lucky" value="1">Found a penny, heads up.<br>
+        <input type="checkbox" name="lucky" value="3">Won a raffle.<br>
+      </div>
+      <button type="submit" name="button">Submit</button>
+    </form>
+
+    <div class="lucky">
+      <p>You are a lucky dog!</p>
+    </div>
+    <div class="neutral">
+      <p>You are a Neutral Nelly.</p>
+    </div>
+    <div class="unlucky">
+      <p>..... that's unfortunate.</p>
+    </div>
+  </div>
+</body>
+</html>
